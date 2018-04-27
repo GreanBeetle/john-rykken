@@ -31,18 +31,18 @@ This is my personal website. I am building it with Ruby, Rails, and Javascript, 
   * Single page section with pictures of and links to my other coding projects
 
 4. CODE
-  * To start, this section will have 10 'toy' programming problems
-  * 5 of them will be written in Ruby
-  * 5 of them will be written in Javascript
-  * For example, there may be a Javascript 'Ping-Pong' problem. First, the idea will be explained. I.e. "Please input a positive number. The Javascript is going to return an array of numbers from 1 to the number you input. All numbers divisible by 3 will be replaced with "ping". All numbers divisible by 5 will be replaced with "pong". So, if you give me the number 7, the program will return 1, 2, ping, 4, pong, ping, 7.  
-  * Each problem will have a link titled 'show me the code', which will invoke a modal window displaying the actual coding logic.
+  * To start, this section will have 6 'toy' programming problems
+  * 3 of them will be written in Ruby
+  * 3 of them will be written in Javascript
+  * For example, there may be a Javascript 'Ping-Pong' problem. The idea will be explained. I.e. "Please input a positive number. The Javascript is going to return an array of numbers from 1 to the number you input. All numbers divisible by 3 will be replaced with "ping". All numbers divisible by 5 will be replaced with "pong". So, if you give me the number 7, the program will return 1, 2, ping, 4, pong, ping, 7." Then the idea will be executed.
+  * Each problem will have a link titled 'show code', which will invoke a modal (or simply hidden) window displaying the actual coding logic.
   * I'm going to use the Red Carpet gem to stylize the code in the modals    
 
 5. WRITING
   * An introduction to my history as a writer
   * An overview of the Max Mayhem Services
   * A link to my novel, BLOODWOOD
-  * The firts 10 chapters of my unpublished novel, THE ODDCLOCK      
+  * The first 10 chapters of my unpublished novel, THE ODDCLOCK      
 
 ## Setup and Installation
 
