@@ -1,6 +1,22 @@
-<small><%= link_to "SIGN UP", new_user_registration_path %></small>
-<small><%= link_to "SIGN IN", new_user_session_path, :method => :get %></small>
-<small><%= link_to "SIGN OUT", destroy_user_session_path, :method => :delete %></small>
-<% if current_user %>
-  <small><%= current_user.username %></small>
-<% end %>
+<!-- must be rendered in a column -->
+<aside class="menu">
+  <% if !current_user %>
+    <div class="sidebar-item">
+      <%= link_to "SIGN UP", new_user_registration_path %>
+    </div>
+    <br>
+    <div class="sidebar-item">
+      <%= link_to "SIGN IN", new_user_session_path, :method => :get %>
+    </div>
+  <% end %>
+  <% if current_user %>
+    <div class="sidebar-item">
+      <%= current_user.username %>
+    </div>
+    <br>
+    <div class="sidebar-item">
+      <%= link_to "SIGN OUT", destroy_user_session_path, :method => :delete %>
+    </div>
+  <% end %>
+  <hr>
+</aside>
