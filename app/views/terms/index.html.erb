@@ -4,7 +4,7 @@
     <small><%= link_to "SIGN UP", new_user_registration_path %></small>
   </div>
   <div class="level-item">
-    <small>SIGN IN</small>
+    <small><%= link_to "SIGN IN", new_user_session_path, :method => :get %></small>
   </div>
   <div class="level-item">
     <small><%= link_to "SIGN OUT", destroy_user_session_path, :method => :delete %></small>
