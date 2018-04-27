@@ -4,6 +4,10 @@
 
 #### John Rykken
 
+johnrykken.com-1.0
+
+Rails. Ruby. Javascript. pSQL. Devise. Paperclip. Bulma. Personal website including code samples, writing, and "Plain English".
+
 #### Eventually this will be my personal website. I'm going to build it with Angular, Javascript, and Firebase. It will be divided into the following sections. (1) ABOUT (2) CODE, which will have many different pages. A Javascript page with copious built-in examples of Javascript code. E.g. a ping-pong calculater, a dice game, etc. An API page that uses one or several APIs. Perhaps a Ruby page. A page or two dedicated to Firebase NoSQL objects and CRUD functionality. And so on and so forth. (3) WRITING. This will give a brief overview of my writing background and display excerpts from my books, BLOODWOOD and THE ODDCLOCK. (4) PLAIN ENGLISH. In this section I would like to explain computer science concepts in plain English. It will have only one or two entries at first. An entry, say, for the DOM, where the DOM is explained without using computer terminology. Or perhaps an entry about nodes. Or the difference between URLs, IP addresses, domain names, websites, and servers.
 
 #### And that will be more than enough to start. If I can get that much up and running I'll be doing well.         
