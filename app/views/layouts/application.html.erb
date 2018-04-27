@@ -11,13 +11,16 @@
 
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
+
       <!-- nav brand is the logo, it's always on the left  -->
       <div class="navbar-brand">
         <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/93993-200.png" class="navbar-item" id="crow">
       </div>
-      <!-- nav menu fills all nav space after the brand -->
+
+      <!-- nav-menu fills all nav space after nav-brand -->
       <div class="navbar-menu">
-        <!-- nav start places elements on the left -->
+
+        <!-- nav-start places elements on the left -->
         <div class="navbar-start">
           <div class="navbar-item">
             <h1><%= link_to "HOME", root_path %></h1>
@@ -26,7 +29,8 @@
             <h1>ABOUT</h1>
           </div>
         </div>
-        <!-- nav end places elements on the right -->
+
+        <!-- nav-end places elements on the right -->
         <div class="navbar-end">
           <div class="navbar-item">
             <h1><%= link_to '"PLAIN ENGLISH"', terms_path %></h1>
@@ -38,6 +42,7 @@
             <h1>PORTFOLIO</h1>
           </div>
         </div>
+
       </div>
     </nav>
 

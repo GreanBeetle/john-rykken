@@ -1,18 +1,19 @@
 <div class="columns">
+
   <div class="column is-four-fifths">
-    <div class="level">
-      <div class="level-item">
-        <h2>EXAMPLE</h2>
-      </div>
-      <div class="level-item">
-        <h2>EXAMPLE</h2>
-      </div>
-      <div class="level-item">
-        <h2>EXAMPLE</h2>
-      </div>
-    </div>
+    <% @terms.each do |term| %>
+      <h1><%= term.name %></h1>
+      <br>
+      <%= term.blurb %>
+      <br>
+      <%= term.explanation %>
+      <br>
+      <hr>
+    <% end %>
   </div>
+
   <div class="column">
     <%= render "/sidebar" %>
   </div>
+
 </div>
