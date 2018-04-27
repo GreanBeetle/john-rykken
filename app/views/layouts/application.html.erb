@@ -10,27 +10,36 @@
   </head>
 
   <body>
-    <div class="navbar" role="navigation">
-      <!-- navbrand is always visible, i.e. it's a brand icon -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <h1>John Rykken</h1>
+        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/93993-200.png" class="navbar-item">
       </div>
-      <!-- allows navbar brand its space, fills up rest of navbar -->
       <div class="navbar-menu">
-        <!-- child of nav menu, this appears on left -->
         <div class="navbar-start">
-          <span class="navbar-item">HOME</span>
-          <span class="navbar-item">ABOUT</span>
-          <span class="navbar-item">CODE!</span>
-          <span class="navbar-item">PORTFOLIO</span>
-          <span class="navbar-item">WRITING</span>
+          <div class="navbar-item">
+            <h1>HOME</h1>
+          </div>
+          <div class="navbar-item">
+            <h1>ABOUT</h1>
+          </div>
         </div>
-        <!-- child of nav menu, this appears on right -->
+
         <div class="navbar-end">
-          <span class="navbar-item">PLAIN ENGLISH</span>
+          <div class="navbar-item">
+            <h1>PLAIN ENGLISH</h1>
+          </div>
+          <div class="navbar-item">
+            <h1>CODE</h1>
+          </div>
+          <div class="navbar-item">
+            <h1>PORTFOLIO</h1>
+          </div>
         </div>
       </div>
-    <div>
+    </nav>
+
+    <br>
+
     <%= yield %>
   </body>
 </html>
