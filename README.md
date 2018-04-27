@@ -58,6 +58,7 @@ None required.
 
 ## Notes
 * Parallax scrolling to be implemented throughout site
+* Research 'sticky bars' and 'web navigation trends'
 
 ## Built With
 
