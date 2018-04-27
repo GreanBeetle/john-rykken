@@ -9,21 +9,21 @@ This is my personal website. I am building it with Ruby, Rails, and Javascript, 
 
 1. ABOUT
   * A paragraph or two about me
-  * A section listing my skills, both programming and otherwise
+  * A section listing my skills, programming and otherwise
   * A section listing hobbies
   * A list of books, films, etc. that I enjoy
 
 2. PLAIN ENGLISH
   * Perhaps my favorite part of this site, Plain English will explain computer terminology in simple terms
-  * I'm going to pretend my readers are a class of eighth graders who have used computers but otherwise know nothing about code or computer science  
-  * I'm going to utilize a pSQL Database for this. Each term will be an instance of  `class Term`.
-  * `Term` will have the attributes `name` and `definition`
+  * I will write as if my readers are eighth graders who have used computers but otherwise know nothing about code  
+  * A pSQL Database will be utilized for this. Each term will be an instance of  `class Term`.
+  * `Term` will have the attributes `name`, `blurb` and `definition`
   * Users will have the option to sign up and sign in to Plain English  
   * The Devise Gem will handle authentication
   * Authenticated users will have the ability to leave comments, which will be instances of `class Comment`
-  * Each `Comment` will `belong_to :term`
+  * Each `Comment` will `belongs_to :term` and `belongs_to :user`
   * Each  `Term` will `have_many :comments`
-  * My hope is that users will use the comments to ask for clarification or provide feedback
+  * My hope is that users leave comments asking for clarification or providing feedback
   * Plain English will have a request form where users may request explanations of specific terms
   * This portion of the site will have a protected route, accessible by only Admin, where I will be able to create, read, update, and delete `Term`s.     
 
