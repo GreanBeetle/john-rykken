@@ -1,0 +1,6 @@
+<small><%= link_to "SIGN UP", new_user_registration_path %></small>
+<small><%= link_to "SIGN IN", new_user_session_path, :method => :get %></small>
+<small><%= link_to "SIGN OUT", destroy_user_session_path, :method => :delete %></small>
+<% if current_user %>
+  <small><%= current_user.username %></small>
+<% end %>
