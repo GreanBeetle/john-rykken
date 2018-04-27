@@ -44,5 +44,13 @@
     <br>
 
     <%= yield %>
+
+    <% if current_user %>
+      <footer>
+        <small><%= current_user.username %></small> |
+        <small><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></small>
+      </footer>
+    <% end %>
+
   </body>
 </html>
