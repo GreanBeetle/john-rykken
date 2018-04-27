@@ -25,7 +25,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+# FOR IMAGE UPLOADS
+gem "paperclip", "~> 6.0.0"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -50,6 +53,26 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# Authentication Gem
+gem 'devise'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Project Gems
+gem 'jquery-rails'
+gem 'rspec-rails'
+gem 'launchy'
+gem 'pry'
+gem 'shoulda-matchers'
+gem 'faker'
+gem 'owlcarousel2'
+
+# Bulma CSS Framework
+gem "bulma-rails", "~> 0.7.1"
+
+# Factory Bot
+gem "factory_bot_rails", "~> 4.0"
+
+# Simplecov
+gem "simplecov", require: false
