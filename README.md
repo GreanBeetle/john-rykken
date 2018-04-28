@@ -1,8 +1,12 @@
+*NOTE FOR FRANZ*
+###### In the browser, navigate to the "Plain English" section of this website. Authentication functionality is available there. I kept it minimal: sign up, log in, log out, add username. 
+
 # johnrykken.com
 
 ### April 27, 2018
 
 ### _John Rykken_
+
 
 
 This is my personal website. I am building it with Ruby, Rails, and Javascript, using Bulma for the CSS framework, and incorporating a variety of Ruby Gems for everything from authentication to admin functionality. Generally speaking, I'm aiming for a simple, dark-themed UI and a smooth, intuitive UX. Eventually, this site will have five different sections. They are:
@@ -44,9 +48,22 @@ This is my personal website. I am building it with Ruby, Rails, and Javascript, 
   * A link to my novel, BLOODWOOD
   * The first 10 chapters of my unpublished novel, THE ODDCLOCK      
 
-## Setup and Installation
+## Setup
 
-None required.
+Assuming you have Ruby, Rails, and pSQL installed, run the following in the command line.
+
+Navigate to the desktop and run:
+
+`$ git clone https://github.com/GreanBeetle/john-rykken`
+
+Navigate to the root directory of john-rykken and run:
+
+`$ rails db:create`
+`$ rails db:migrate`
+`$ rails db:test:prepare`
+`$ rails db:seed`
+
+Type `rails s` and navigate to "localhost:3000" in your browser.
 
 ## Specs as of April 27, 2018
 
