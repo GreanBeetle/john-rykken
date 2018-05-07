@@ -1,14 +1,30 @@
 @import "bulma";
+@import 'navbar';
 
-#crow {
-  height: 100px;
-  width: 100px;
+@font-face {
+  font-family: "1942";
+  src: url('1942.ttf') format('truetype');
 }
 
-.menu {
-  border-left: 3px solid black;
-  padding-left: 10px;
+@font-face {
+  font-family: 'rough';
+  src: url('rough-type.otf');
 }
+
+@font-face {
+  font-family: 'linowrite';
+  src: url('linowrite.ttf');
+}
+
+@font-face {
+  font-family: 'underwood';
+  src: url('MyUnderwood.ttf');
+}
+
+* {
+  border: 1px solid black;
+}
+
 
 footer {
   text-align: center;
@@ -20,5 +36,5 @@ footer {
 }
 
 ul {
-  list-style: none; 
+  list-style: none;
 }
