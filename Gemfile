@@ -76,3 +76,6 @@ gem "factory_bot_rails", "~> 4.0"
 
 # Simplecov
 gem "simplecov", require: false
+
+# jquery
+gem 'jquery-rails'

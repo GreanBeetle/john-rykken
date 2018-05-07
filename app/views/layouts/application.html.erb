@@ -32,6 +32,25 @@
 
         <!-- nav-end places elements on the right -->
         <div class="navbar-end">
+          <!-- nav drop menu -->
+          <div class="navbar-item">
+            <div class="dropdown is-active">
+              <!-- button -->
+              <div class="dropdown-trigger">
+                <button class="button" id="hamburger"><img src="/assets/hamburger.png"></button>
+              </div>
+              <!-- menu items -->
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <p class="dropdown-item">ABC</p>
+                  <p class="dropdown-item">ABC</p>
+                  <p class="dropdown-item">ABC</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- end -->
           <div class="navbar-item">
             <h1><%= link_to '"PLAIN ENGLISH"', terms_path %></h1>
           </div>
