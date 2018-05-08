@@ -1,8 +1,9 @@
-@import "bulma";
+@import 'bulma';
 @import 'navbar';
+@import 'footer';
 
 @font-face {
-  font-family: "1942";
+  font-family: '1942';
   src: url('1942.ttf') format('truetype');
 }
 
@@ -23,16 +24,6 @@
 
 * {
   border: 1px solid black;
-}
-
-
-footer {
-  text-align: center;
-  margin: 0;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  padding-bottom: 20px;
 }
 
 ul {

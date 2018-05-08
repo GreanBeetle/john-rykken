@@ -11,7 +11,6 @@
 
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
-
       <!-- nav brand is the logo, it's always on the left  -->
       <div class="navbar-brand">
         <p id="johnrykken">john rykken</p>
@@ -19,7 +18,6 @@
 
       <!-- nav-menu fills all nav space after nav-brand -->
       <div class="navbar-menu">
-
         <!-- nav-start places elements on the left -->
         <div class="navbar-start">
           <div class="navbar-item">
@@ -34,7 +32,7 @@
         <div class="navbar-end">
           <!-- nav drop menu -->
           <div class="navbar-item">
-            <div class="dropdown is-active">
+            <div class="dropdown is-hoverable is-right">
               <!-- button -->
               <div class="dropdown-trigger">
                 <button class="button" id="hamburger"><img src="/assets/hamburger.png"></button>
@@ -42,26 +40,14 @@
               <!-- menu items -->
               <div class="dropdown-menu" id="dropdown-menu" role="menu">
                 <div class="dropdown-content">
-                  <p class="dropdown-item">ABC</p>
-                  <p class="dropdown-item">ABC</p>
-                  <p class="dropdown-item">ABC</p>
+                  <p class="dropdown-item"><%= link_to '"PLAIN ENGLISH"', terms_path %></p>
+                  <p class="dropdown-item">CODE</p>
+                  <p class="dropdown-item">PORTFOLIO</p>
                 </div>
               </div>
-            </div>
-
+            </div><!-- dropdown is-active -->
           </div>
-          <!-- end -->
-          <div class="navbar-item">
-            <h1><%= link_to '"PLAIN ENGLISH"', terms_path %></h1>
-          </div>
-          <div class="navbar-item">
-            <h1>CODE</h1>
-          </div>
-          <div class="navbar-item">
-            <h1>PORTFOLIO</h1>
-          </div>
-        </div>
-
+        </div><!-- navbar-end -->
       </div>
     </nav>
 
