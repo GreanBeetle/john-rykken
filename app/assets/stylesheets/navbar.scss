@@ -1,5 +1,6 @@
 #johnrykken {
   font-family: 'underwood';
+  color: white;
 }
 
 .menu {
@@ -8,5 +9,9 @@
 }
 
 #dropdown-menu {
-  display: none; 
+  display: none;
+}
+
+.navbar-brand, .navbar-menu, .button {
+  background-color: black;
 }
