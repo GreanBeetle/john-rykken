@@ -4,24 +4,31 @@
 @import 'index';
 
 @font-face {
-  font-family: '1942';
-  src: url('1942.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'rough';
-  src: url('rough-type.otf');
-}
-
-@font-face {
-  font-family: 'linowrite';
-  src: url('linowrite.ttf');
-}
-
-@font-face {
   font-family: 'underwood';
   src: url('MyUnderwood.ttf');
 }
+
+@font-face {
+  font-family: 'acherusgrotesque';
+  src: url('acherusgrotesque.otf');
+}
+
+@font-face {
+  font-family: 'novacento-light';
+  src: url('novacento-light.otf');
+}
+
+@font-face {
+  font-family: 'novacento-book';
+  src: url('novacento-book.otf');
+}
+
+@font-face {
+  font-family: 'novacento-normal';
+  src: url('novacento-normal.otf');
+}
+
+@font
 
 * {
   border: 1px solid black;
