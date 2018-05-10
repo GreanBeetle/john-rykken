@@ -17,9 +17,11 @@
 //= require turbolinks
 //= require_tree .
 
-$(function() {
-  $('#hamburger').click(function(){
-    console.log('clicked')
-    $('#dropdown-menu').toggle();
+$(document).on('turbolinks:load', () => {
+  $(function() {
+    $('#hamburger').click(function(){
+      console.log('clicked')
+      $('#dropdown-menu').slideToggle();
+    });
   });
 });
