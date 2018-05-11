@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   root to: "home#index"
 
-  devise_for :users
+  devise_for :users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
 
   resources :terms do
     resources :comments

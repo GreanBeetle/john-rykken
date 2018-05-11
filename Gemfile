@@ -83,3 +83,5 @@ gem "simplecov", require: false
 
 # jquery
 gem 'jquery-rails'
+
+gem 'activeadmin'
