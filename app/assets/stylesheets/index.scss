@@ -1,9 +1,17 @@
 .hero {
-  background-image: url('/assets/blue.jpeg');
+  background-image: url('/assets/darkgrunge4.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-// #hero_title, #hero_subtitle {
-//   font-family: 'novacento';
-// }
+#hero_title {
+  font-family: 'novacento-book';
+  font-size: 3em;
+  color: white;
+}
+
+#hero_subtitle {
+  font-family: 'novacento-book';
+  color: #6B6A68;
+  font-size: 2em;
+}
