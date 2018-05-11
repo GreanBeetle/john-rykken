@@ -19,9 +19,13 @@
 }
 
 #johnrykken {
-  font-family: 'novacento-normal';
-  font-size-adjust: auto;
-  a {
-    color: white;
-  }
+  max-width: 250px;
+  padding: 10px;
+  margin-top: 5px; 
+}
+
+// drop shadow
+
+.navbar {
+  box-shadow: 0 8px 6px -6px black;
 }

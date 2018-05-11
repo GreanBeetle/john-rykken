@@ -13,7 +13,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <!-- nav brand is the logo, it's always on the left  -->
       <div class="navbar-brand">
-        <span><% link_to root_path %><img src="/assets/logobadass.png"></span>
+        <%= link_to image_tag("/assets/logobadass.png", :class => "css", :id => "johnrykken"), root_path %>
       </div>
 
       <!-- nav-menu fills all nav space after nav-brand -->
@@ -21,7 +21,7 @@
         <!-- nav-start places elements on the left -->
         <div class="navbar-start">
           <div class="navbar-item">
-            <p id="johnrykken"><%= link_to "johnrykken.com", root_path %></p>
+            <!-- intentionally blank -->
           </div>
         </div>
 
