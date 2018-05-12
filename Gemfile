@@ -63,7 +63,7 @@ gem 'devise'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Project Gems
+# MY ADDITIONS
 gem 'jquery-rails'
 gem 'rspec-rails'
 gem 'launchy'
@@ -71,17 +71,13 @@ gem 'pry'
 gem 'shoulda-matchers'
 gem 'faker'
 gem 'owlcarousel2'
-
 # Bulma CSS Framework
 gem "bulma-rails", "~> 0.7.1"
-
 # Factory Bot
 gem "factory_bot_rails", "~> 4.0"
-
 # Simplecov
 gem "simplecov", require: false
-
 # jquery
 gem 'jquery-rails'
-
 gem 'activeadmin'
+gem 'redcarpet'
