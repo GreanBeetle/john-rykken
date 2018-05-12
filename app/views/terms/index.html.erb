@@ -8,9 +8,9 @@
 
   <div class="tile is-ancestor" id="term-wrapper">
     <% @terms.each do |term| %>
-      <div class="tile is-parent is-primary" id="term-tile">
+      <div class="tile is-parent is-primary" id="term-tile" >
         <article class="tile is-child notification is-primary">
-          <p class="title"><%= term.name %></p>
+          <p class="title"><%= link_to term.name, term_path(term) %></p>
           <p class="subtitle"><%= term.blurb %></p>
         </article>
       </div>
