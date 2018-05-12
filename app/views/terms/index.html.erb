@@ -1,27 +1,28 @@
-<br>
-<div class="container">
-  <div class="tile is-ancestor">
-    <% @terms.each do |term| %>
-    <% if term.id.odd? == true %>
-    <div class="tile is-6">
-      <h1><%= term.name %></h1>
-      <hr>
-      <h3><%= term.blurb %></h3>
-    </div>
-    <% else %>
-    <div class="tile is-6">
-      <h1><%= term.name %></h1>
-      <hr>
-      <h3><%= term.blurb %></h3>
-    </div>
-    <br>
-    <% end %>
-    <% end %>
-  </div>
-</div>
 
 
-
-  <div>
+  <div class="column">
     <%= render "/sidebar" %>
   </div>
+
+<div class="container">
+
+  <div class="tile is-ancestor">
+
+    <% @terms.each_slice(2) do |slice| %>
+      <div class="tile">
+        
+        <% slice.each do |term| %>
+          <div class="tile is-parent is-6">
+            <article class="tile is-child notification is-primary">
+              <p class="title"><%= term.name %></p>
+              <p class="subtitle"><%= term.blurb %></p>
+            </article>
+          </div>
+        <% end %>
+
+      </div>
+    <% end %>
+
+
+  </div>
+</div>
