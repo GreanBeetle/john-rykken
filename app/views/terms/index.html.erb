@@ -1,19 +1,27 @@
-<div class="columns">
-
-  <div class="column is-four-fifths">
+<br>
+<div class="container">
+  <div class="tile is-ancestor">
     <% @terms.each do |term| %>
+    <% if term.id.odd? == true %>
+    <div class="tile is-6">
       <h1><%= term.name %></h1>
-      <br>
-      <%= term.blurb %>
-      <br>
-      <%= term.explanation %>
-      <br>
       <hr>
+      <h3><%= term.blurb %></h3>
+    </div>
+    <% else %>
+    <div class="tile is-6">
+      <h1><%= term.name %></h1>
+      <hr>
+      <h3><%= term.blurb %></h3>
+    </div>
+    <br>
+    <% end %>
     <% end %>
   </div>
+</div>
 
-  <div class="column">
+
+
+  <div>
     <%= render "/sidebar" %>
   </div>
-
-</div>
