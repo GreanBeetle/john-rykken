@@ -1,4 +1,4 @@
-def CommentsController < ApplicationController
+class CommentsController < ApplicationController
 
   def new
     @term = Term.find(params[:term_id])
