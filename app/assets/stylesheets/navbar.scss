@@ -1,4 +1,4 @@
-
+@import 'variables';
 
 .menu {
   border-left: 3px solid black;
@@ -20,8 +20,12 @@
 
 #johnrykken {
   max-width: 250px;
-  padding: 10px;
-  margin-top: 5px; 
+  padding: 20px;
+  margin-top: 5px;
+  color: $gray;
+  font-family: $novacento;
+  font-size: 1.3em;
+  font-weight: 100;
 }
 
 // drop shadow
