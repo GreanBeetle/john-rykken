@@ -1,8 +1,10 @@
 class CommentsController < ApplicationController
 
   def new
+    @current_user = current_user
     @term = Term.find(params[:term_id])
     @comment = @term.comments.new
+    
   end
 
   def create
@@ -24,6 +26,17 @@ class CommentsController < ApplicationController
 
 end
 
+
+def new
+    if current_user
+      @term = Term.find(params[:term_id])
+      @comment = @term.comments.new
+    else
+      respond_to do |format|
+        format.html { redirect_to  }
+      end
+    end
+  end
 # REFERENCE CODE
 # def create
 #     @book = Book.new(book_params)

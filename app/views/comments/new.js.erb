@@ -1,3 +1,5 @@
-
-
-$('#new_comment_link').hide().after('<%= j render('form') %>');
+<% if @current_user %>
+  $('#new_comment_link').hide().after('<%= j render('form') %>');
+<% else %>
+  $('#new_comment_link').hide().after('<%= j render('please_log_in') %>');
+<% end %>
