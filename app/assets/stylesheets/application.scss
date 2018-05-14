@@ -3,6 +3,8 @@
 @import 'footer';
 @import 'homepage';
 @import 'term_index';
+@import 'synopsis';
+@import 'variables'; 
 
 @font-face {
   font-family: 'underwood';
@@ -29,10 +31,8 @@
   src: url('novacento-normal.otf');
 }
 
-@font
-
 * {
-  border: 1px solid black;
+  // border: 1px solid black;
 }
 
 .button {
