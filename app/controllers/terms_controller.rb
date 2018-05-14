@@ -5,6 +5,7 @@ class TermsController < ApplicationController
 
   def show
     @term = Term.find(params[:id])
+    @comments = @term.comments 
     # implicitly renders show
   end
 end

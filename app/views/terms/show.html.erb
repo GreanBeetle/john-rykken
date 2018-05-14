@@ -1,9 +1,14 @@
 <h1><%= @term.name %></h1>
+<hr>
+<h3><%= @term.explanation %></h3>
 
-<h1>YOU MADE IT! CONGRATULATIONS, YOU'RE A BADASS.</h1>
+<hr>
 
 <%= link_to "leave a comment", new_term_comment_path(@term), id: "new_comment_link", remote: true %>
 
 <div id="comment_section">
-
+  <% @comments.each do |comment| %>
+    <%= comment.body %>
+    <hr>
+  <% end %>
 </div>
