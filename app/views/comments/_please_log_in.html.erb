@@ -1,1 +1,3 @@
-<p>Please log in to leave a comment.</p>
+<p>Please <%= link_to "log in", new_user_session_path, :method => :get %> or <%= link_to "sign up", new_user_registration_path %> in to leave a comment.</p>
+<hr>
+<small><%= link_to "back", term_path(@term) %></small>
