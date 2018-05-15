@@ -1,7 +1,11 @@
 @import 'variables';
 
-#skills-title {
+#skills-title, #skills-main-title {
   font-family: 'Raleway';
+}
+
+#skills-main-title {
+  font-size: 3em;
 }
 
 #skills-logo {
@@ -10,5 +14,16 @@
 }
 
 #skills-container {
-  text-align: center; 
+  text-align: center;
+  .tile {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+.image, .is-4by4 {
+  margin: 0 auto;
+}
+
+article, .tiley {
+
 }
