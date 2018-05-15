@@ -1,5 +1,7 @@
+@import 'variables';
+
 .hero {
-  background-image: url('/assets/filmgrunge.png');
+  background-image: url('/assets/dark.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12,10 +14,10 @@
 
 #hero_subtitle {
   font-family: 'novacento-book';
-  color: #3A341D;
+  color: $blue-green;
   font-size: 2em;
 }
 
 .hero-body {
-  text-align: center; 
+  text-align: center;
 }

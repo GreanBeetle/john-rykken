@@ -18,12 +18,12 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', () => {
+
   $(function() {
     $('#hamburger').click(function(){
       console.log('clicked')
       $('#dropdown-menu').slideToggle();
     });
   });
-
 
 });
