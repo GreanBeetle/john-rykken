@@ -24,4 +24,6 @@ $(document).on('turbolinks:load', () => {
       $('#dropdown-menu').slideToggle();
     });
   });
+
+
 });

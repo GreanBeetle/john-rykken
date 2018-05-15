@@ -2,5 +2,19 @@
 
 #synopsis-section {
   background-color: $green;
-  text-align: center;
+}
+
+.about-me {
+  font-family: 'Raleway';
+  margin: 10px;
+}
+
+#about-me-tile, #profile-picture-tile {
+  padding: 25px;
+  border-radius: 0;
+  background: rgba(200, 54, 54, 0);
+}
+
+div {
+  border: none;
 }
