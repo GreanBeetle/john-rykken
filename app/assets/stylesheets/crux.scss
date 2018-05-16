@@ -35,6 +35,15 @@
       strong {
         color: $green;
       }
+
+      ul {
+        list-style: initial;
+        font-family: $open-sans;
+        font-size: 14pt; 
+        li {
+          color: #fff;
+        }
+      }
     }
   }
 }
