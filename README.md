@@ -1,6 +1,3 @@
-*NOTE FOR FRANZ*
-###### In the browser, navigate to the "Plain English" section of this website. Authentication functionality is available there. I kept it minimal: sign up, log in, log out, add username. 
-
 # johnrykken.com
 
 ### April 27, 2018
@@ -17,18 +14,18 @@ This is my personal website. I am building it with Ruby, Rails, and Javascript, 
   * A section listing hobbies
   * A list of books, films, etc. that I enjoy
 
-2. PLAIN ENGLISH
-  * Perhaps my favorite part of this site, Plain English will explain computer terminology in simple terms
+2. CRUX
+  * Perhaps my favorite part of this site, Crux will explain computer terminology in simple terms
   * I will write as if my readers are eighth graders who have used computers but otherwise know nothing about code  
   * A pSQL Database will be utilized for this. Each term will be an instance of  `class Term`.
   * `Term` will have the attributes `name`, `blurb` and `definition`
-  * Users will have the option to sign up and sign in to Plain English  
+  * Users will have the option to sign up and sign in to Crux  
   * The Devise Gem will handle authentication
   * Authenticated users will have the ability to leave comments, which will be instances of `class Comment`
   * Each `Comment` will `belongs_to :term` and `belongs_to :user`
   * Each  `Term` will `have_many :comments`
   * My hope is that users leave comments asking for clarification or providing feedback
-  * Plain English will have a request form where users may request explanations of specific terms
+  * Crux will have a request form where users may request explanations of specific terms
   * This portion of the site will have a protected route, accessible by only Admin, where I will be able to create, read, update, and delete `Term`s.     
 
 3. PORTFOLIO
@@ -68,10 +65,10 @@ Type `rails s` and navigate to "localhost:3000" in your browser.
 ## Specs as of April 27, 2018
 
 * Build landing page with navbar
-* In navbar, include links to HOME, ABOUT, CODE, WRITING, and PLAIN ENGLISH
-* Build basic PLAIN ENGLISH page
-* If users are on the PLAIN ENGLISH page, display sidebar with with SIGN UP, SIGN IN, and SIGN OUT options  
-* Utilize Devise to implement PLAIN ENGLISH authentication   
+* In navbar, include links to HOME, ABOUT, CODE, WRITING, and Crux
+* Build basic CRUX page
+* If users are on the CRUX page, display sidebar with with SIGN UP, SIGN IN, and SIGN OUT options  
+* Utilize Devise to implement CRUX authentication   
 
 ## Notes
 * Parallax scrolling to be implemented throughout site

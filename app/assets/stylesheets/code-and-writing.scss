@@ -1,0 +1,13 @@
+@import "variables";
+
+#code-and-writing {
+  background-color: $gray;
+  h1 {
+    font-family: $novacento;
+    font-size: 3.5em;
+    color: #000;
+  }
+  .columns {
+    text-align: center;
+  }
+}
