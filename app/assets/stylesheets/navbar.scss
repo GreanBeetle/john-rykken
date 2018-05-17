@@ -28,8 +28,19 @@
   font-weight: 200;
 }
 
+.dropdown-menu {
+  z-index: 10; 
+}
+
 // drop shadow
 
 .navbar {
   box-shadow: 0 8px 6px -6px black;
+}
+
+// auth
+
+#signout {
+  color: $blue-green;
+  font-family: $open-sans;
 }
