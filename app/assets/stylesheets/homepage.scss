@@ -12,6 +12,11 @@
   color: white;
 }
 
+#hero_title.animated {
+  animation-duration: 3s;
+  // animation-iteration-count: infinite;
+}
+
 #hero_subtitle {
   font-family: 'novacento-book';
   color: $blue-green;
