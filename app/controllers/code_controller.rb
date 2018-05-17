@@ -1,7 +1,7 @@
 class CodeController < ApplicationController
 
-  def code_index
-    # spaceholder 
+  def index
+    # spaceholder
   end
 
 end
