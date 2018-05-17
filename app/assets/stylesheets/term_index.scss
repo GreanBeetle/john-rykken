@@ -1,5 +1,15 @@
+@import "variables";
+
 #term-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+
+  article {
+    background-color: $green; 
+  }
+}
+
+#under-512 {
+  height: 150px;
 }

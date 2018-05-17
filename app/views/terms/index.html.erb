@@ -2,11 +2,11 @@
 <br>
 <br>
 <div class="container">
-
+  <img src="/assets/under-512" id="under-512">
   <div class="tile is-ancestor" id="term-wrapper">
     <% @terms.each do |term| %>
-      <div class="tile is-parent is-primary" id="term-tile" >
-        <article class="tile is-child notification is-primary">
+      <div class="tile is-parent" id="term-tile" >
+        <article class="tile is-child notification">
           <p class="title"><%= link_to term.name, term_path(term) %></p>
           <p class="subtitle"><%= term.blurb %></p>
         </article>
