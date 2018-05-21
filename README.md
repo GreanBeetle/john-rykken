@@ -4,7 +4,7 @@
 
 ### _John Rykken_
 
-* Not yet deployed. Work in progress.*
+_Not yet deployed. Work in progress._
 
 This is my personal website. I am building it with Ruby, Rails, and Javascript, using Bulma for the CSS framework, and incorporating a variety of Ruby Gems for everything from authentication to admin functionality. Generally speaking, I'm aiming for a simple, dark-themed UI and a smooth, intuitive UX. Eventually, this site will have five different sections. They are:
 
