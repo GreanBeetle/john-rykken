@@ -79,3 +79,4 @@ gem "factory_bot_rails", "~> 4.0"
 gem "simplecov", require: false
 gem 'activeadmin'
 gem 'redcarpet'
+gem 'webpacker'
