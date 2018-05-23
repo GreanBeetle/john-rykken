@@ -4,7 +4,7 @@
   background-color: $gray;
 
   p {
-    color: black;
+    color: #000;
   }
 
   h1 {
@@ -21,8 +21,12 @@
     text-align: justify;
   }
 
-  #bloodwood, #oddclock, #lune {
+  #bloodwood, #oddclock, #lune, #gardendark {
     height: 150px;
+  }
+
+  #gardendarkabout {
+    text-align: left;
   }
 
   #under-512 {
@@ -36,7 +40,7 @@
 
   .box {
     border: 0px;
-    border-radius: 4px; 
+    border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
