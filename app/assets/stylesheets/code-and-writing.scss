@@ -2,11 +2,17 @@
 
 #code-and-writing {
   background-color: $gray;
+
+  p {
+    color: black;
+  }
+
   h1 {
     font-family: $novacento;
     font-size: 3.5em;
     color: #000;
   }
+
   .columns {
     text-align: center;
   }
@@ -24,6 +30,13 @@
   }
 
   .book-about {
-    text-align: justify; 
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .box {
+    border: 0px;
+    border-radius: 4px; 
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
