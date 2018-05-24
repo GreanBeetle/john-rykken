@@ -4,7 +4,7 @@
 
 ### _John Rykken_
 
-_Not yet deployed. Work in progress._
+_Drafts of this project are deployed at https://pure-cliffs-95105.herokuapp.com/_
 
 This is my personal website. I am building it with Ruby, Rails, and Javascript, using Bulma for the CSS framework, and incorporating a variety of Ruby Gems for everything from authentication to admin functionality. Generally speaking, I'm aiming for a simple, dark-themed UI and a smooth, intuitive UX. Eventually, this site will have five different sections. They are:
 
