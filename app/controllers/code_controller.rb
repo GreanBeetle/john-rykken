@@ -1,7 +1,7 @@
 class CodeController < ApplicationController
 
   def index
-    # spaceholder
+    @code = "Example code"
   end
 
 end
