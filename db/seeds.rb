@@ -6,6 +6,9 @@ AdminUser.destroy_all
 @name = Faker::Name.last_name
 User.create!(username: @name, email: "#{@name}@foo.com", password: "abc123", password_confirmation: "abc123")
 
+AdminUser.create!(email: "admin@gmail.com", password: "abc123", password_confirmation: "abc123")
+
+
 15.times do |i|
   @id = User.last.id
   Term.create!(name: Faker::Hacker.adjective, blurb: Faker::Hipster.sentence(10, true), explanation: Faker::Hipster.sentence(500))
