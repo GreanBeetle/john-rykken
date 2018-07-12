@@ -1,3 +1,5 @@
+## This version of the project is deprecated. As of 7/18 I've begun rebuilding the site in Angular. Visit [this repository](https://github.com/GreanBeetle/johnrykkenV2) for the new project.
+
 # johnrykken.com
 
 ### April 27, 2018
