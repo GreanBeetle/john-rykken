@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # personal version ~> 2.4.1
-ruby '2.4.1'
+# ruby '2.4.1'
+
+#temporary
+ruby '2.3.4'
 
 # epicodus version ~> 2.5.0
 # ruby '2.5.0'
